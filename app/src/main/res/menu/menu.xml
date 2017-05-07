@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+        android:title="@string/srch"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always" />
+
+
+    <item android:id="@+id/action_like"
+        android:icon="@drawable/heart"
+        app:showAsAction="always"
+        android:title="like" />
+
+    <item
+        android:title="@string/feedback"
+        android:showAsAction="never"
+        app:showAsAction="never"
+        android:id="@+id/feedback">
+    </item>
+
+    <item
+        android:title="@string/settings"
+
+        android:showAsAction="never"
+        android:id="@+id/Setting">
+    </item>
+
+    <item
+        android:title="@string/about"
+
+        android:showAsAction="never"
+        android:id="@+id/about">
+    </item>
+
+    <item
+        android:title="@string/logout"
+
+        android:showAsAction="never"
+        android:id="@+id/logout">
+    </item>
+
+
+</menu>

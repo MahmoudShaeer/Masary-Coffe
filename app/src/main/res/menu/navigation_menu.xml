@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+     android:id="@+id/cup_cakesnav"
+     android:title="Cupcakes"
+     android:icon="@drawable/cupcakes">
+
+    </item>
+
+    <item
+        android:id="@+id/juice_nav"
+        android:title="Juice"
+        android:icon="@drawable/juice">
+    </item>
+
+    <item
+        android:id="@+id/Pan_cakesnav"
+        android:title="Pancakes"
+        android:icon="@drawable/pancakes">
+
+    </item>
+
+    <item
+        android:id="@+id/pizza"
+        android:title="Pizza"
+        android:icon="@drawable/pizza">
+
+    </item>
+    <item
+        android:id="@+id/taco"
+        android:title="Taco"
+        android:icon="@drawable/taco"></item>
+
+
+</menu>

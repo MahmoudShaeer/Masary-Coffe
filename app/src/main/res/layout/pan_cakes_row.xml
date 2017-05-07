@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/PanCakeimageRight"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/PanCaketextView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="L"
+        android:textColor="#e9ffb923"
+        android:textSize="19sp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_alignBaseline="@+id/PanCaketextView8"
+        android:layout_alignBottom="@+id/PanCaketextView8"
+        android:layout_toRightOf="@+id/PanCaketextView7"
+        android:layout_toEndOf="@+id/PanCaketextView7" />
+
+    <TextView
+        android:id="@+id/PanCaketextView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M"
+        android:textColor="#e9ffb923"
+        android:textSize="19sp"
+        android:layout_above="@+id/PanCaketextView6"
+        android:layout_toRightOf="@+id/PanCaketextView6"
+        android:layout_toEndOf="@+id/PanCaketextView6" />
+
+    <TextView
+        android:id="@+id/PanCaketextView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25"
+        android:textColor="#5b5b5b"
+        android:textSize="15sp"
+        android:layout_below="@+id/PanCaketextView9"
+        android:layout_toRightOf="@+id/PanCaketextView6"
+        android:layout_toEndOf="@+id/PanCaketextView6"
+        android:layout_marginTop="16dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CupCakes"
+        android:textColor="#000000"
+        android:id="@+id/PanCaketextView5"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/PanCakeDetalis2"
+        android:layout_alignStart="@+id/PanCakeDetalis2" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Lorem ipsum dolor sit amet,consectuer adipisicing elit "
+        android:textColor="#5b5b5b"
+        android:layout_below="@+id/PanCaketextView5"
+        android:layout_alignLeft="@+id/PanCaketextView5"
+        android:layout_alignStart="@+id/PanCaketextView5"
+        android:id="@+id/PanCaketextView6" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20"
+        android:textSize="15dp"
+        android:id="@+id/PanCakecost_L"
+        android:textColor="#5b5b5b"
+        android:layout_alignBaseline="@+id/PanCaketextView7"
+        android:layout_alignBottom="@+id/PanCaketextView7"
+        android:layout_alignLeft="@+id/PanCaketextView9"
+        android:layout_alignStart="@+id/PanCaketextView9" />
+    <View
+        android:layout_width="1dp"
+        android:layout_marginRight="8dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:layout_toLeftOf="@+id/PanCakecost_L"
+        android:layout_alignBottom="@+id/PanCaketextView6"
+        android:id="@+id/PanCakeview">
+    </View>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/PanCakelike"
+        android:layout_below="@+id/PanCakecost_L"
+        android:layout_toRightOf="@+id/PanCakecost_L"
+        android:layout_toEndOf="@+id/PanCakecost_L" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="17dp"
+        android:layout_below="@+id/PanCakeimageRight"
+        android:background="@drawable/shape_shadow"
+        android:id="@+id/PanCakeview2">
+    </View>
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/PanCakeimageLeft"
+        android:layout_below="@+id/PanCakeview2"
+
+        android:layout_toRightOf="@+id/PanCakeDetalis2"
+        android:layout_toEndOf="@+id/PanCakeDetalis2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CupCakes"
+        android:textColor="#000000"
+        android:id="@+id/PanCakeCupcakestxt"
+        android:layout_below="@+id/PanCakeview2"
+        android:layout_toRightOf="@+id/PanCakeimageRight"
+        android:layout_toEndOf="@+id/PanCakeimageRight" />
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Lorem ipsum dolor sit amet,consectuer adipisicing elit "
+        android:textColor="#5b5b5b"
+        android:id="@+id/PanCakeDetalis2"
+        android:layout_marginBottom="25dp"
+        android:layout_above="@+id/PanCakeview_2below"
+        android:layout_alignLeft="@+id/PanCakeCupcakestxt"
+        android:layout_marginLeft="5dp"
+
+        android:layout_alignStart="@+id/PanCakeCupcakestxt" />
+
+    <TextView
+        android:id="@+id/PanCakemediam2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M"
+        android:textColor="#e9ffb923"
+        android:textSize="19sp"
+        android:layout_below="@+id/PanCakeCupcakestxt"
+        android:layout_alignRight="@+id/PanCakemediam2price"
+        android:layout_alignEnd="@+id/PanCakemediam2price">
+    </TextView>
+    <TextView
+        android:id="@+id/PanCakelarg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="L"
+        android:textColor="#e9ffb923"
+        android:textSize="19sp"
+        android:layout_alignBaseline="@+id/PanCakemediam2"
+        android:layout_alignBottom="@+id/PanCakemediam2"
+        android:layout_alignLeft="@+id/PanCakecost_L2"
+        android:layout_alignStart="@+id/PanCakecost_L2" />
+
+    <TextView
+        android:id="@+id/PanCakemediam2price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25"
+        android:textColor="#5b5b5b"
+        android:textSize="15dp"
+        android:layout_below="@+id/PanCakelarg2"
+        android:layout_toRightOf="@+id/PanCakelike2"
+        android:layout_toEndOf="@+id/PanCakelike2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20"
+        android:textSize="15dp"
+        android:id="@+id/PanCakecost_L2"
+        android:textColor="#5b5b5b"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/PanCakelarg2"
+        android:layout_toLeftOf="@+id/PanCaketextView5"
+        android:layout_toStartOf="@+id/PanCaketextView5" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:layout_toLeftOf="@+id/PanCakecost_L2"
+        android:layout_alignBottom="@+id/PanCakelike2"
+        android:id="@+id/PanCakeview2_pop">
+    </View>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/PanCakelike2"
+        android:layout_below="@+id/PanCakemediam2price"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="17dp"
+        android:layout_below="@+id/PanCakeimageLeft"
+        android:background="@drawable/shape_shadow"
+        android:id="@+id/PanCakeview_2below">
+    </View>
+
+
+</RelativeLayout>

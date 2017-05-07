@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/JuiceimageRight"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/JuicetextView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="L"
+        android:textColor="#e9ffb923"
+        android:textSize="19sp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_alignBaseline="@+id/JuicetextView8"
+        android:layout_alignBottom="@+id/JuicetextView8"
+        android:layout_toRightOf="@+id/JuicetextView7"
+        android:layout_toEndOf="@+id/JuicetextView7" />
+
+    <TextView
+        android:id="@+id/JuicetextView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M"
+        android:textColor="#e9ffb923"
+        android:textSize="19sp"
+        android:layout_above="@+id/JuicetextView6"
+        android:layout_toRightOf="@+id/JuicetextView6"
+        android:layout_toEndOf="@+id/JuicetextView6" />
+
+    <TextView
+        android:id="@+id/JuicetextView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25"
+        android:textColor="#5b5b5b"
+        android:textSize="15sp"
+        android:layout_below="@+id/JuicetextView9"
+        android:layout_toRightOf="@+id/JuicetextView6"
+        android:layout_toEndOf="@+id/JuicetextView6"
+        android:layout_marginTop="16dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CupCakes"
+        android:textColor="#000000"
+        android:id="@+id/JuicetextView5"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/JuiceDetalis2"
+        android:layout_alignStart="@+id/JuiceDetalis2" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Lorem ipsum dolor sit amet,consectuer adipisicing elit "
+        android:textColor="#5b5b5b"
+        android:layout_below="@+id/JuicetextView5"
+        android:layout_alignLeft="@+id/JuicetextView5"
+        android:layout_alignStart="@+id/JuicetextView5"
+        android:id="@+id/JuicetextView6" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20"
+        android:textSize="15dp"
+        android:id="@+id/Juicecost_L"
+        android:textColor="#5b5b5b"
+        android:layout_alignBaseline="@+id/JuicetextView7"
+        android:layout_alignBottom="@+id/JuicetextView7"
+        android:layout_alignLeft="@+id/JuicetextView9"
+        android:layout_alignStart="@+id/JuicetextView9" />
+    <View
+        android:layout_width="1dp"
+        android:layout_marginRight="8dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:layout_toLeftOf="@+id/Juicecost_L"
+        android:layout_alignBottom="@+id/JuicetextView6"
+        android:id="@+id/Juiceview">
+    </View>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/Juicelike"
+        android:layout_below="@+id/Juicecost_L"
+        android:layout_toRightOf="@+id/Juicecost_L"
+        android:layout_toEndOf="@+id/Juicecost_L" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="17dp"
+        android:layout_below="@+id/JuiceimageRight"
+        android:background="@drawable/shape_shadow"
+        android:id="@+id/Juiceview2">
+    </View>
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/JuiceimageLeft"
+        android:layout_below="@+id/Juiceview2"
+
+        android:layout_toRightOf="@+id/JuiceDetalis2"
+        android:layout_toEndOf="@+id/JuiceDetalis2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CupCakes"
+        android:textColor="#000000"
+        android:id="@+id/JuiceCupcakestxt"
+        android:layout_below="@+id/Juiceview2"
+        android:layout_toRightOf="@+id/JuiceimageRight"
+        android:layout_toEndOf="@+id/JuiceimageRight" />
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Lorem ipsum dolor sit amet,consectuer adipisicing elit "
+        android:textColor="#5b5b5b"
+        android:id="@+id/JuiceDetalis2"
+        android:layout_marginBottom="25dp"
+        android:layout_above="@+id/Juiceview_2below"
+        android:layout_alignLeft="@+id/JuiceCupcakestxt"
+        android:layout_marginLeft="5dp"
+
+        android:layout_alignStart="@+id/JuiceCupcakestxt" />
+
+    <TextView
+        android:id="@+id/Juicemediam2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M"
+        android:textColor="#e9ffb923"
+        android:textSize="19sp"
+        android:layout_below="@+id/JuiceCupcakestxt"
+        android:layout_alignRight="@+id/Juicemediam2price"
+        android:layout_alignEnd="@+id/Juicemediam2price">
+    </TextView>
+    <TextView
+        android:id="@+id/Juicelarg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="L"
+        android:textColor="#e9ffb923"
+        android:textSize="19sp"
+        android:layout_alignBaseline="@+id/Juicemediam2"
+        android:layout_alignBottom="@+id/Juicemediam2"
+        android:layout_alignLeft="@+id/Juicecost_L2"
+        android:layout_alignStart="@+id/Juicecost_L2" />
+
+    <TextView
+        android:id="@+id/Juicemediam2price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25"
+        android:textColor="#5b5b5b"
+        android:textSize="15dp"
+        android:layout_below="@+id/Juicelarg2"
+        android:layout_toRightOf="@+id/Juicelike2"
+        android:layout_toEndOf="@+id/Juicelike2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20"
+        android:textSize="15dp"
+        android:id="@+id/Juicecost_L2"
+        android:textColor="#5b5b5b"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/Juicelarg2"
+        android:layout_toLeftOf="@+id/JuicetextView5"
+        android:layout_toStartOf="@+id/JuicetextView5" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:layout_toLeftOf="@+id/Juicecost_L2"
+        android:layout_alignBottom="@+id/Juicelike2"
+        android:id="@+id/Juiceview2_pop">
+    </View>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/Juicelike2"
+        android:layout_below="@+id/Juicemediam2price"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="17dp"
+        android:layout_below="@+id/JuiceimageLeft"
+        android:background="@drawable/shape_shadow"
+        android:id="@+id/Juiceview_2below">
+    </View>
+
+</RelativeLayout>
